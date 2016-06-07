@@ -59,6 +59,28 @@ textarea {
 /* ==========================================================================
    My custom styles start here
    ========================================================================== */
+/*Load the custom fonts here*/
+@font-face {
+    font-family: 'capsuular';
+    src: url('../assets/fonts/Capsuula-webfont.eot');
+    src: url('../assets/fonts/Capsuula-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Capsuula-webfont.woff') format('woff'),
+         url('../assets/fonts/Capsuula-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Capsuula-webfont.svg#capsuularegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'antipasto';
+    src: url('../assets/fonts/Antipasto_regular.otf') format('opentype');
+}
+.capsula{
+    font-family: 'capsuular';
+}
+.antipasto{
+    font-family: 'antipasto';
+}
+
 
 html,body,.landing{
     width: 100%;
