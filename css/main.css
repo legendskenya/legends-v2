@@ -73,6 +73,12 @@ textarea {
 @font-face{
     font-family: 'antipasto';
     src: url('../assets/fonts/Antipasto_regular.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'bandy';
+    src: url('../assets/fonts/bandy.TTF') format('truetype');
+    font-weight: bold;
 }
 .capsula{
     font-family: 'capsuular';
@@ -80,19 +86,53 @@ textarea {
 .antipasto{
     font-family: 'antipasto';
 }
+.bandy{
+    font-family: 'bandy';
+}
 
 
 html,body,.landing{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-/*    background: url("../assets/bg_landing.jpg") no-repeat fixed center;*/
+    position: absolute;
+    background: url("../assets/bg_landing.jpg") no-repeat fixed center;
     background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+
+
+    &:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: linear-gradient(to bottom, #ffffff,#000000);
+        opacity: 0.6;
+    }
+
+}
+#content{
+    z-index: 100000000;
+    position: relative;
 }
 .menu-row{
     width: 100%;
     height: 19%;
 /*    background: #00b5e2;*/
+}
+#title h1{
+    color: white;
+    font-size: 5.5em;
 }
 
 
