@@ -142,19 +142,16 @@ html,body,.about{
 .about{
     overflow-x: hidden;
 }
-/*
-.row-seperate{
-    margin-top: 20%
+.about-columns{
+    margin-top: 12.5%;
+    padding: 3%;
 }
-*/
 #mission{
-    margin-top: 20%;
+
 }
 #ab{
-    margin-top: 20%;
 }
 #vision{
-    margin-top: 20%;
 }
 /* ==========================================================================
    My custom styles end here
