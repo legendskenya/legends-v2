@@ -152,14 +152,48 @@ html,body,.about{
 #vision{
 }
 /*Team Section Styling*/
-#mbele{
-    background: #f0b323;
+html,body,.team{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
-#njesh{
+.team h5{
+    text-align: center;
+}
+.team-member{
+    width: 29%;
+    height: 48%;
+    display: inline-block;
+    padding: 2%;
+}
+#mbele{
     background: #00b5e2;
 }
-#ngondo(
-)
+#njesh{
+    background: #00e29e;
+}
+#ngondo{
+   background: #0044e2;
+}
+#dama{
+    background: #e29e00;
+}
+#kemboi{
+    background: #00b5e2;
+}
+#langat{
+    background: #e20044;
+}
+/*word from chair section*/
+html,body,.word{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+/*contact us section*/
+
+
 /* ==========================================================================
    My custom styles end here
    ========================================================================== */
